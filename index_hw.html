@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App - Todo list</title>
+    <script src="index_hw.js" type="module"></script>
+    <link rel="stylesheet" href="styles_hw.css">
+</head>
+<body>
+    <h1>Todo list</h1>
+
+    <div id="todo-list"></div>
+
+    <div>
+        <input type="text" placeholder="ChoreName" id="new-item-name">
+        <select name="difficulty" id="new-item-difficulty">
+            <option value="0">Difficulty</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <button id="new-item-save">Save</button>
+    </div>
+    <br>
+
+    <div>
+        <span><strong>Order:</strong></span>
+        <button id="btn-asc">Ascending</button>
+        <button id="btn-dsc">Descending</button>
+    </div>
+    <br>
+
+    <div>
+        <span><strong>Most difficult item:</strong></span>
+        <span id="most-difficult-item"></span>
+    </div>
+
+    <div id="completed">
+        <span id="completed-title">Completed:</span>
+        <span id="percentage"></span>
+    </div>
+    
+    
+</body>
+</html>
+

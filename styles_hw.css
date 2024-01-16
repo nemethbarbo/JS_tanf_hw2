@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategrey;
+    background-color: beige;
+    margin: 0px 30px;
+}
+
+#completed {
+    margin: 20px 0;
+}
+
+#completed-title {
+    font-weight: bold;
+}
+
+#most-difficult-item {
+    font-weight: bold;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.incomplete {
+    color: red;
+}
